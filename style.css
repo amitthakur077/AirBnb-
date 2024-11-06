@@ -1,0 +1,593 @@
+
+
+.logo-imgg{
+    height: 5em;
+    width: 4em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+
+}
+.first-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.stays{
+    font-size: 19px;
+}
+.Experiences{
+    font-size: 19px;
+}
+.Online-Exp{
+    font-size: 19px;
+}
+.Airbnb-your-home{
+    font-size: 19px;
+}
+
+.first-bar-logos1{
+    width: 24em;
+    position: relative ;
+    top: 17px;
+    left: 17em;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.stays:hover{
+    cursor: pointer;
+    background-color:lightgray;
+    transform: scale(1.1);
+
+}
+.Experiences:hover{
+    cursor: pointer;
+    background-color:lightgray;
+    transform: scale(1.1);
+
+}
+.Online-Exp:hover{
+    cursor: pointer;
+    background-color:lightgray;
+    transform: scale(1.1);
+
+}
+
+.first-bar-logos2{
+    width: 12em;
+    position: relative ;
+    top: 15px;
+    left: 24em;
+    /* border: 2px solid black; */
+    /* border-radius: 40px; */
+    display: flex;
+    justify-content: space-around;
+}
+.Airbnb-your-home:hover{
+    cursor: pointer;
+    background-color:lightgray;
+    transform: scale(1.1);
+
+}
+#logo-globe:hover{
+    cursor: pointer;
+    background-color:lightgray;
+    transform: scale(1.1);
+
+}
+#logo-globe{
+    position: relative;
+    top: 17px;
+}
+
+
+.first-bar-logos3{
+    height: 40px;
+    width: 7em;
+    position: relative ;
+    top: 15px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.first-bar-logos3:hover{
+    cursor: pointer;
+    background-color:lightgray;
+    transform: scale(1.1);
+}
+#three-line-log{
+    position: absolute;
+    top: 7px;
+    right: 70px;
+    font-size: 30px;
+}
+
+#user-logo{
+    position: absolute;
+    top: 7px;
+    left: 70px;
+    font-size: 30px;
+}
+
+
+.second-bar{
+    /* background-color:rgb(247, 28, 119); */
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    left: 24em;
+    top: 47px;
+    width: 60em;
+    justify-content: space-around;
+}
+
+
+#search-icon{
+    position: relative;
+    left: 12x;
+    top: 18px;
+    font-weight: bold;
+}
+.second-bar-1{
+    cursor: pointer;
+    transition: background-color 0.3 ease-in-out ;
+}
+.second-bar-1:hover{
+    border: 2px ;
+    border-radius: 5px;
+   background-color: lightgray;
+   transform: scale(1.1);
+
+}
+#where{
+    font-weight: bold;
+}
+
+
+.second-bar-2{
+    cursor: pointer;
+    transition: background-color 0.3 ease-in-out ;
+}
+.second-bar-2:hover{
+    border: 2px ;
+    border-radius: 5px;
+   background-color: lightgray;
+   transform: scale(1.1);
+
+}
+#check-in{
+    font-weight: bold;
+}
+
+
+.second-bar-3{
+    cursor: pointer;
+    transition: background-color 0.3 ease-in-out ;
+}
+.second-bar-3:hover{
+    border: 2px ;
+    border-radius: 5px;
+   background-color: lightgray;
+   transform: scale(1.1);
+
+}
+#check-out{
+    font-weight: bold;
+}
+
+
+.second-bar-4{
+    cursor: pointer;
+    transition: background-color 0.3 ease-in-out ;
+}
+.second-bar-4:hover{
+    border: 2px ;
+    border-radius: 5px;
+   background-color: lightgray;
+   transform: scale(1.1);
+
+}
+
+#who{
+    font-weight: bold;
+}
+
+.second-bar-5{
+    cursor: pointer;
+    transition: background-color 0.3 ease-in-out ;
+}
+.second-bar-5:hover{
+    border: 2px ;
+    border-radius: 5px;
+   background-color: lightgray;
+   transform: scale(1.1);
+}
+
+
+.icons-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.amazing-pools:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.apartments:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.cabins:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.villa:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.houseboat:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.surfing:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.boat:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.camping:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.multi-room:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.camper-vans:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+.golfing:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    /* background-color: lightgray; */
+    border: 2px;
+    border-radius: 15px;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+
+
+.main-content{
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+#first-image-idd{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#first-image-idd:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+.first-desc{
+    font-size: 19px;
+}
+
+#second-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#second-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+.second-desc{
+    font-size: 19px;
+}
+
+#third-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#third-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+.third-desc{
+    font-size: 19px;
+}
+
+#fourth-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#fourth-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+.fourth-desc{
+    font-size: 19px;
+}
+
+#fifth-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#fifth-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+.fifth-desc{
+    font-size: 19px;
+}
+
+#sixth-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#sixth-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+.sixth-desc{
+    font-size: 19px;
+}
+
+#seventh-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#seventh-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+.seventh-desc{
+    font-size: 19px;
+}
+
+#eight-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#eight-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+.eight-desc{
+    font-size: 19px;
+}
+
+#nine-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#nine-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+
+.nine-desc{
+    font-size: 19px;
+}
+
+#ten-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+#ten-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+
+.ten-desc{
+    font-size: 19px;
+}
+
+#eleven-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+
+#eleven-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+
+.eleven-desc{
+    font-size: 19px;
+}
+
+#twelve-image-id{
+    height: 22em;
+    width: 25em;
+    border-radius: 20px;
+    transition: transform 0.7s;
+}
+
+.twelve-desc{
+    font-size: 19px;
+}
+#twelve-image-id:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-delay:0.9 ;
+}
+
+.inspiration{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.inspiration-buttonss button {
+    position: relative;
+    top: 3em;
+    left: 17px;
+    width: 150px;
+    height: 40px;
+    margin: 7px;
+    cursor: pointer;
+    font-size:18px;
+}
+
+.support-main{
+    cursor: pointer;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 270px;
+}
+
+.support p:hover{
+    text-decoration: underline;
+}
+.Hosting p:hover{
+    text-decoration: underline;
+}
+.Airbnb p:hover{
+    text-decoration: underline;
+}
+
+.footer-section{
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#copright{
+    position: relative;
+    top: 10px;
+}
+
+.year{
+    position: relative;
+    left: 12px;
+    bottom: 18px;
+}
+
+.privacy{
+    position: relative;
+    left: 35px;
+    bottom: 18px;
+}
+
+.terms{
+    position: relative;
+    left: 50px;
+    bottom: 18px;
+}
+
+.sitemap{
+    position: relative;
+    left: 65px;
+    bottom: 18px;
+}
+
+.company-details{
+    position: relative;
+    left: 80px;
+    bottom: 18px;
+}
+
